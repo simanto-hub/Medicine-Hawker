@@ -1,0 +1,12 @@
+com.jwetherell.heart_rate_monitor
+drawable green_icon
+drawable icon
+drawable red_icon
+id image
+id layout
+id preview
+id text
+id top
+layout main
+string app_name
+string default_text

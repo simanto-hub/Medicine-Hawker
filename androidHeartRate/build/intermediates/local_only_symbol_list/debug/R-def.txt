@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+drawable green_icon
+drawable icon
+drawable red_icon
+id image
+id layout
+id preview
+id text
+id top
+layout main
+string app_name
+string default_text

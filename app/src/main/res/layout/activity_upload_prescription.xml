@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".activity.UploadPrescription">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:src="@drawable/upload_prescription"/>
+
+    <EditText
+        android:id="@+id/txtdata"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:hint="Enter Mobile Number!" />
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtdata"
+        android:layout_alignStart="@+id/txtdata"
+        android:layout_marginStart="-37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-33dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Browse"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtdata"
+        android:layout_alignEnd="@+id/txtdata"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-33dp"
+        android:layout_marginEnd="-43dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Upload"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnskip"
+        android:layout_width="92dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/btnbrowse"
+        android:layout_alignBottom="@+id/btnupload"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-37dp"
+        android:backgroundTint="#00B594"
+        android:text="Skip"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

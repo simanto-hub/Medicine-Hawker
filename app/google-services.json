@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "870834722643",
+    "firebase_url": "https://medicine-hawker-499de.firebaseio.com",
+    "project_id": "medicine-hawker-499de",
+    "storage_bucket": "medicine-hawker-499de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870834722643:android:3f03323763a4f76460b3a6",
+        "android_client_info": {
+          "package_name": "threebigo.medicinehawker.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870834722643-2t2bfppf98sjhjorf9ff71fcmc4caqjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhotykkg9LS4otwo5BCcqrR_BcPHDG2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870834722643-2t2bfppf98sjhjorf9ff71fcmc4caqjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

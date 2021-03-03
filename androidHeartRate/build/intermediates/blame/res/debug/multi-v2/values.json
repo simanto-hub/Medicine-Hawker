@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Backup file\\Medicine Hawker Update\\Medicine Hawker Update\\Medicine Hawker\\Main Code\\Android Medicine Hawker - v2.0.4\\Medicine Hawker - v2.0.4\\androidHeartRate\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Backup file\\Medicine Hawker Update\\Medicine Hawker Update\\Medicine Hawker\\Main Code\\Android Medicine Hawker - v2.0.4\\Medicine Hawker - v2.0.4\\androidHeartRate\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "99,55",
+                        "endColumns": "53,43",
+                        "endOffsets": "148,94"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,43",
+                        "endOffsets": "104,148"
+                    }
+                }
+            ]
+        }
+    ]
+}

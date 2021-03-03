@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jwetherell.heart_rate_monitor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:7:5-46
+8        android:minSdkVersion="20"
+8-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:7:5-46
+9        android:targetSdkVersion="30" />
+9-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:9:5-59
+11-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:9:19-57
+12    <uses-feature android:name="android.hardware.camera.flash" />
+12-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:10:5-65
+12-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:10:19-63
+13
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:11:5-64
+14-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:11:22-62
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:12:5-67
+15-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:12:22-65
+16
+17    <application
+17-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:14:5-20:19
+18        android:allowBackup="true"
+18-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:16:21-47
+19        android:label="@string/app_name" >
+19-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:15:9-41
+20        <activity
+20-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:17:9-19:57
+21            android:name="com.jwetherell.heart_rate_monitor.HeartRateMonitor"
+21-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:17:19-51
+22            android:configChanges="keyboardHidden|orientation"
+22-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:18:19-69
+23            android:screenOrientation="portrait" />
+23-->D:\Backup file\Main Code\Main Code\Android Medicine Hawker - v2.0.4\Medicine Hawker - v2.0.4\androidHeartRate\src\main\AndroidManifest.xml:19:19-55
+24    </application>
+25
+26</manifest>
